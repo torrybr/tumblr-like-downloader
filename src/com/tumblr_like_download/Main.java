@@ -24,12 +24,12 @@ public class Main {
     public static void main(String[] args) {
 
         JumblrClient client = new JumblrClient(
-                "sVwgEbcH5p9QpVaMLjpvXdfryYXU5AY5R5lH3qYVQaXzy7LYQi",
-                "n1M4E1VOgO5npc3j6aZx4HiP4vtO5t0LbOwHEisNSg4QBv8Pbq"
+                "enter your tok",
+                "enter your tok"
         );
         client.setToken(
-                "eWhLh3mSvWt5c7zyBzuVo5gx7RVVFLcvXeua0Gkovyd9DLY8i8",
-                "fW4dOlJdSO6ST54VMLI72t5uqmxZcxSAc6sXDNwjdbVb1t6YGq"
+                "enter your tok",
+                "enter your tok"
         );
 
         // Make the request
