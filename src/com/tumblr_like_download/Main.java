@@ -58,8 +58,8 @@ public class Main {
                             if (!url_list.contains(url)) {
                                 url_list.add(url);
                                 Random rand = new Random();
-                                System.out.println("downloading.. " + url.toString() + " to file " + "/Users/torrybrelsford/Documents/Photos/Look-Book/test/");
-                                FileUtils.copyURLToFile(url, new File("/Users/torrybrelsford/Documents/Photos/Look-Book/test/", rand.nextInt(25000) + ".jpg"));
+                                System.out.println("downloading.. " + url.toString() + " to file " + "");
+                                FileUtils.copyURLToFile(url, new File("", rand.nextInt(25000) + ".jpg"));
                             }
 
                         }
